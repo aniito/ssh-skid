@@ -84,6 +84,6 @@ def gz():
                 print("ok")
         print(" [+] Vous êtes maintenant prêts ! ")
         
-                
+gz()                
                 
          
