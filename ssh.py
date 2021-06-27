@@ -47,7 +47,7 @@ def gz():
         x = input("mettre le root access au ssh ? [Y/N] : ")
         if x == "Y":
                 print("IL FAUT TROUVER LA LIGNE AVEC #PermitRootLogin et enlever le #")
-                import time
+                
                 cfd = input("prêt ? à y aller ? : ")
                 print("sudo", end=" ", flush=True)
                 time.sleep(0.5)
