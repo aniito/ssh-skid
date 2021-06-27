@@ -42,7 +42,7 @@ def gz():
         
         """)
         time.sleep(2)
-        ss = input("voulez-vous insraller ssh ? [Y/N] :  ")
+        ss = input("voulez-vous installer ssh ? [Y/N] :  ")
         if ss == "Y":     
                 print("INSTALLING SSH")
                 os.system("apt-get install ssh")
