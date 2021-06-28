@@ -6,7 +6,7 @@ def gz():
         print("""
         
              ____________________________________________________
-            /                                                    \
+            /                                                    \\
            |    _____________________________________________     |
            |   |                                             |    |
            |   |  ┌──(anito㉿43G)-[~]                        [ 43G ]
@@ -87,7 +87,7 @@ def gz():
                 print("ok")
                
         pws = input("voulez-vous mettre un mot de passe pour votre accès ssh ? [Y/N] : ")
-        if pwd == 'Y':
+        if pws == 'Y':
                 usrr = input("mettez l'utilisateur : ")
                 print("mettez votre mot de passe :")
                 os.system(f"sudo passwd {usrr}")
